@@ -1,0 +1,33 @@
+body {
+  background-color: #f5deb3;
+  font-family: Arial, sans-serif;
+}
+
+.todo-container {
+  background-color: #1e1e1e;
+  color: white;
+  max-width: 500px;
+  margin: 50px auto;
+  padding: 20px;
+  border-radius: 15px;
+  border: 2px solid royalblue;
+}
+
+.task {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: #2c2c2c;
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+}
+
+.task.completed span {
+  text-decoration: line-through;
+  color: gray;
+}
+
+.btn-sm {
+  margin-left: 5px;
+}

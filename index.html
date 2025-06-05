@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>To Do List</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="todo-container">
+  <h2 class="text-center mb-4">To Do List</h2>
+  <div class="input-group mb-3">
+    <input type="text" id="taskInput" class="form-control" placeholder="New Task">
+    <div class="input-group-append">
+      <button class="btn btn-primary" onclick="addTask()">Add</button>
+    </div>
+  </div>
+
+  <h5>Task List</h5>
+  <div id="taskList"></div>
+
+  <hr style="background-color: royalblue;">
+  <p id="status" class="text-center">Completed: 0 | Uncompleted: 0</p>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
